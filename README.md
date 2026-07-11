@@ -6,7 +6,7 @@ The SQL covers 5 distinct rule types: velocity attacks (bots test cards in rapid
 The Python adds a risk scorecard that combines all signals.
 Real-world context: Banks & FinTechs (Wells Fargo, Stripe, PayPal) lose billions annually to fraudulent transactions.
 
-### Task: Identify suspicious patterns from raw transaction data.
+### Task to Solution: Identify suspicious patterns from raw transaction data.
 
 #### FRAUD RULE 1: Velocity check — 5+ transactions within 10 minutes.
 Real-world use: Card testing attacks; bots run small transactions quickly.
