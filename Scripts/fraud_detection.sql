@@ -100,7 +100,7 @@ SELECT
    ROUND( s.std_amount, 2) AS std_dev
 FROM transactions t
 JOIN stats s ON t.account_id = s.account_id
-WHERE (t.amount - s.avg_amount) / s.std_amount > 2  -- Assuming stabdard deviation > 2 are suspicious
+WHERE (t.amount - s.avg_amount) / s.std_amount > 2  -- Assuming Z score > 2 are suspicious
 ORDER BY z_score DESC;
 
 -- ── FRAUD RULE 4: Dormant account suddenly active ────────────────────────────
