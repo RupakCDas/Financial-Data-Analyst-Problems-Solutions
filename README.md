@@ -1,7 +1,7 @@
 # Financial-Data-Analyst-Problems-Solutions
-- #1 PROBLEM : Transaction Fraud Detection
-- #2 TASK :  Customer Churn & Revenue Retention Analysis
-## #1 PROBLEM : Transaction Fraud Detection
+- PROBLEM 1: Transaction Fraud Detection
+- PROBLEM 2:  Customer Churn & Revenue Retention Tracking
+## PROBLEM 1 : Transaction Fraud Detection
 
 Fraud Detection is used daily by every bank and FinTech. Data analysts collect transactional data from credit card records, account history, user behavior, and device information to build fraud detection systems. 
 The SQL covers 5 distinct rule types: velocity attacks (bots test cards in rapid bursts), geographic anomalies, statistical outliers via Z-score, dormant account reactivation, and AML structuring. 
@@ -29,7 +29,7 @@ Real-world: Deposits just below $10K to avoid bank reporting threshold. And assu
 Approach: union all rule flags into a risk score per account or transaction.
 
 
-## #2 TASK :  Customer Churn & Revenue Retention Analysis
+## PROBLEM 2 :  Customer Churn & Revenue Retention Tracking
 The SQL builds cohort retention tables, MRR movement (new/expansion/contraction/churn), and a churn early-warning system. 
 
 #### TASK 1: MRR Movement — New / Expansion / Contraction / Churn 
